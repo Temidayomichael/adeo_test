@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Hamelin';
+  src: url('../fonts/Hamelin-dafont.ttf');
+}
+@font-face {
+  font-family: 'Harmonia';
+  src: url('../fonts/HarmoniaSansProCyr-Regular.ttf');
+}
+
+
+.btn-shape{
+  display: none;
+}
