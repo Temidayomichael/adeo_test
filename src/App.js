@@ -34,7 +34,6 @@ function App() {
   }, []);
   console.log(' App testData:', testData);
 
-
   return (
     <ChakraProvider theme={theme}>
       {isLoading ? (
