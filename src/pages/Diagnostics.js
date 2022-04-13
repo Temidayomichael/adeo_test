@@ -117,6 +117,7 @@ export default function Diagnostics() {
       bg="#2d3e50"
       h="100vh"
       overflowY={{ lg: 'hidden' }}
+      overflowX="hidden"
     >
       <AlertDialog
         closeOnOverlayClick={false}
