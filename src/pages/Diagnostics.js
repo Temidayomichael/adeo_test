@@ -104,7 +104,7 @@ export default function Diagnostics() {
 
   const group = getRootProps();
 
-  const { seconds, minutes } = useTimer(50 * 60, handleTimerFinish);
+  const { seconds, minutes } = useTimer(20 * 60, handleTimerFinish);
 
   function handleTimerFinish() {
     onOpen();
