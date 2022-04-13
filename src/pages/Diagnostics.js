@@ -116,7 +116,7 @@ export default function Diagnostics() {
       fontFamily="Harmonia"
       bg="#2d3e50"
       h="100vh"
-      overflowY="hidden"
+      overflowY={{ lg: 'hidden' }}
     >
       <AlertDialog
         closeOnOverlayClick={false}
